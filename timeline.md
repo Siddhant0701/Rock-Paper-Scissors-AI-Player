@@ -18,3 +18,12 @@ June 15, 2022 11:13:01 PM
 - Note: If this is that accurate, it might not even be necessary to build a CNN (Step 2) in order to classify an action.
 
 <br/>
+
+
+June 16, 2022 10:15:32 PM
+
+<br/>
+- Implemented Mediapipe hand detection.
+- Can be used to produce a vector of coordinates for all the different parts of a hand.
+
+<br/>

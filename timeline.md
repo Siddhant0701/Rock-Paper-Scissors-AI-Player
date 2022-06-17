@@ -2,7 +2,7 @@
 
 </br>
 
-June 6, 2022 9:03:29 PM
+June 7, 2022 9:03:29 PM
 
 - Attempted creating a hand detection system using a Haar Cascade classifier.
 - Haar Cascades do not have a defined way of detecting hands.
@@ -23,6 +23,7 @@ June 15, 2022 11:13:01 PM
 June 16, 2022 10:15:32 PM
 
 <br/>
+
 - Implemented Mediapipe hand detection.
 - Can be used to produce a vector of coordinates for all the different parts of a hand.
 

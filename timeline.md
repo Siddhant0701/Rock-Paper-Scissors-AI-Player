@@ -28,3 +28,13 @@ June 16, 2022 10:15:32 PM
 - Can be used to produce a vector of coordinates for all the different parts of a hand.
 
 <br/>
+
+
+June 19, 2022 10:04:17 PM
+
+<br/>
+
+- Used tensorflow datasets to get the RPS images.
+- Able to convert the images into vectors for easier training.
+
+<br/>

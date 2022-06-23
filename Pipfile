@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 opencv-python = "*"
 mediapipe = "*"
+numpy = "*"
+tensorflow = "*"
+tensorflow-datasets = "*"
 
 [dev-packages]
 

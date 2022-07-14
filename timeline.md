@@ -38,3 +38,14 @@ June 19, 2022 10:04:17 PM
 - Able to convert the images into vectors for easier training.
 
 <br/>
+
+
+July 14, 2022 11:44:36 AM
+
+<br/>
+
+- Might need to look into computer vision for more accurate detection of a hand.
+- A possible comparison needs to be made between a simple DNN and a CNN to see which one works better.
+- Need to implement a video system for classification
+
+<br/>

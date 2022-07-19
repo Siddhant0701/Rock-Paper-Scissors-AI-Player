@@ -76,7 +76,7 @@ class Model:
 
 
 
-model = Model('../Artifacts/model.h5')
+model = Model('../models/model.h5')
 
 ## Get main coordinates of the hand
 def image_to_vector(img):

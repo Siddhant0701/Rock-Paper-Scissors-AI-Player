@@ -40,8 +40,8 @@ Initially, `Haar Cascades` was considered along with `Open-CV`'s cascade classif
   
 <br/>
 
-[<img src=images/Cascade_Classifier.png height=500>](images/Cascade_classifier.png)
-[<img src=images/open-hand-cascade.jpg height=500>](images/open-hand-cascade.jpg)
+[<img src=images/cascade.jpg height=300>](images/cascade.jpg)
+[<img src=images/open-hand-cascade.jpg height=300>](images/open-hand-cascade.jpg)
 
 <br/>
 
@@ -49,7 +49,7 @@ A way to deal with would be to use Google's `Mediapipe` APIs in order to detect 
 
 <br/>
 
-[<img src=images/mediapipe.jpg height=500>](images/mediapipe.jpg)]
+[<img src=images/mediapipe.jpg height=300>](images/mediapipe.jpg)
 
 <br/>
 
@@ -74,12 +74,12 @@ Note: It is better to use `MULTI_HAND_WORLD_LANDMARKS` as the output as compared
 
 ### Performance Analysis
 
-1. *Dense Network* - This network achieves an accuracy of about ~99%. Training and loss per epoch is also very optimal for both training and validation sets. It also achieves ~98% accuracy on a test dataset.
+1. *Dense Network* - This network achieves an accuracy of about ~99%. Training and loss per epoch is also very optimal for both training and validation sets. It also achieves ~100% accuracy on a test dataset.
 
 <br/>
 
-[<img src=images/dnn_accuracy.jpg alt=CNN accuracy per epoch height=350>](images/dnn_accuracy.jpg)
-[<img src=images/dnn_loss.jpg alt=CNN accuracy per epoch height=350>](images/dnn_loss.jpg)
+[<img src=images/dnn_accuracy.jpg alt=CNN accuracy per epoch height=250>](images/dnn_accuracy.jpg)
+[<img src=images/dnn_loss.jpg alt=CNN accuracy per epoch height=250>](images/dnn_loss.jpg)
 
 <br/>
 
@@ -88,8 +88,8 @@ Note: It is better to use `MULTI_HAND_WORLD_LANDMARKS` as the output as compared
 
 <br/>
 
-[<img src=images/cnn_accuracy.jpg alt=CNN accuracy per epoch height=350>](images/cnn_accuracy.jpg)
-[<img src=images/cnn_loss.jpg alt=CNN accuracy per epoch height=350>](images/cnn_loss.jpg)
+[<img src=images/cnn_accuracy.jpg alt=CNN accuracy per epoch height=250>](images/cnn_accuracy.jpg)
+[<img src=images/cnn_loss.jpg alt=CNN accuracy per epoch height=250>](images/cnn_loss.jpg)
 
 <br/>
 

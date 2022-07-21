@@ -13,7 +13,8 @@ vid = cv.VideoCapture(0)
 hands = mp.solutions.hands.Hands(
     model_complexity=0,
     min_detection_confidence=0.5,
-    min_tracking_confidence=0.5)
+    min_tracking_confidence=0.5,
+    max_num_hands=1)
 
 dict ={
     0: "WRIST",

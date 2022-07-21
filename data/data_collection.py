@@ -4,6 +4,7 @@ dict = {1:"Rock", 2:"Paper", 3:"Scissors"}
 win_dict = {"Scissors":1, "Rock":2, "Paper":3}
 
 player_data = []
+computer_data = []
 win_data = ""
 
 GAMES = 100

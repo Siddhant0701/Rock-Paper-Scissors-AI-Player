@@ -49,3 +49,12 @@ July 14, 2022 11:44:36 AM
 - Need to implement a video system for classification
 
 <br/>
+
+
+July 19, 2022 6:37:20 PM
+
+<br/>
+
+- LSTMs are barely performing at all. Seems like noise isn't predictable at all.
+- Repeated Random sequences works well. The accuracy jumps as a result of repeated data points but fine tuning gives a 100% accuracy.
+- Maybe need to look into how well distributed this randomized dats is in order to analyze the underperforming model.

@@ -1,6 +1,5 @@
-from model import Model
-from markovModel import MarkovModel
-from randomModel import RandomModel
+from model.base import Model
+from model.random import RandomModel
 
 
 class RPSgame:

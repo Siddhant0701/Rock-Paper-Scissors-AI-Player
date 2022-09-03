@@ -49,10 +49,10 @@ class Model:
     def predict(self, img):
 
         processed_coordinates = self.__process_img(img)
-    
+        
         if(np.max(processed_coordinates) == 0 or len(processed_coordinates) > 1):
             return "Nil"
-    
+        processed_coordinates = np.reshape(processed_coordinates, (1, 21, 3))
         classes = self.model.predict(processed_coordinates, verbose=0)
         return self.labels[np.argmax(classes)]
             

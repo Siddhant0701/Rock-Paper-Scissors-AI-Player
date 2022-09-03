@@ -1,6 +1,3 @@
-from os import stat_result
-
-
 class Model:
     def __init__(self, historyLimit=20):
         self.history = []

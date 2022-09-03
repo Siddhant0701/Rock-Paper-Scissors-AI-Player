@@ -57,4 +57,21 @@ July 19, 2022 6:37:20 PM
 
 - LSTMs are barely performing at all. Seems like noise isn't predictable at all.
 - Repeated Random sequences works well. The accuracy jumps as a result of repeated data points but fine tuning gives a 100% accuracy.
-- Maybe need to look into how well distributed this randomized dats is in order to analyze the underperforming model.
+- Maybe need to look into how well distributed this randomized data is in order to analyze the underperforming model.
+
+<br/>
+
+August 2, 2022 5:19:23 PM
+
+<br/>
+
+- Unable to progress on LSTM, the data looks to be very noisy for making any good predictions.
+- DQN also don't work very well with randomized input, which is expected.
+
+<br/>
+
+August 23, 2022 11:49:02 AM
+
+<br/>
+
+- Markov Chains produce some very nice results on human data, this should be looked into a bit more.

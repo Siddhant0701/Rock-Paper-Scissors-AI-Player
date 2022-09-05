@@ -8,6 +8,7 @@ numpy = "*"
 tensorflow = "*"
 opencv-python = "*"
 mediapipe = "*"
+django = "*"
 
 [dev-packages]
 gym = "*"

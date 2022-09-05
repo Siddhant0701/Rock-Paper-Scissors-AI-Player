@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block stylesheets %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+{% endblock %}
+
+{% block content %}
+    <h1>Rock Paper Scissors AI Game</h1>
+
+    <div class="buttons">
+        <button type="button"> Rock </button>
+        <button type="button"> Paper </button>
+        <button type="button"> Scissors </button>
+    </div>
+
+{% endblock %}

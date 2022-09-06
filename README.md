@@ -110,9 +110,8 @@ Based on this data, it is better to use the `Dense Neural Network` as it is much
 
 The goal is to make a model that can predict a human's next move based on historical data. There are many possible ways to achieve this:
 
-- Statistical methods
-- `Recurrent Neural Networks`
-- `LSTM networks`
+- Statistical/Mathematical methods
+- `Recurrent Neural Networks`/`LSTM networks`
 - `Decision Trees`
   - `Random Forest`
   - `XGBoosted Trees`
@@ -160,7 +159,7 @@ To test the performance of each model for different state lengths, the `Win-Loss
 
 The maximum `Win-Loss Ratio` is achieved by using a State Length of `2` with a Decay Rate of about `0.77`.
 
-This model achieves an accuracy of about `50%` with a `Win-Loss Ratio` of about `1.9`.
+This model achieves an average accuracy of about `50%` with a `Win-Loss Ratio` of about `1.9` for most of players.
 
 
 
